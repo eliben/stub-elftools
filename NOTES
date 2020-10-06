@@ -1,0 +1,14 @@
+To push to PyPI:
+
+    python3 -m twine upload dist/*
+
+PyPI should have the configuration:
+
+    [distutils]
+    index-servers =
+        pypi
+
+    [pypi]
+    repository = https://upload.pypi.org/legacy/
+
+It will ask for username / password during upload.

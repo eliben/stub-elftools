@@ -4,7 +4,7 @@ setuptools.setup(
     name="elftools",
     version="0.0.1",
     author="Eli Bendersky",
-    author_email="eliben@gmail.com"
+    author_email="eliben@gmail.com",
     description="Placeholder for pyelftools",
     long_description="You want 'pip install pyelftools' instead",
     long_description_content_type="text/markdown",
